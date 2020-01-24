@@ -1,0 +1,21 @@
+{
+    "name": "zikula/formextension-bundle",
+    "type": "symfony-bundle",
+    "description": "An bundle providing zikula-related symfony form extensions.",
+    "keywords": [ "zikula" ],
+    "homepage": "https://ziku.la",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Craig Heydenburg",
+            "email": "info@ziku.la"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "symfony/framework-bundle": "5.*"
+    },
+    "autoload": {
+        "psr-4": { "Zikula\\Bundle\\FormExtensionBundle\\": "" }
+    }
+}
